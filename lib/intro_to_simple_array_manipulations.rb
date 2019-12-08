@@ -66,5 +66,7 @@ def using_insert(array, element)
     p no_offense_steven
   end
   
+  def using_delete_at(array, integer)
+    
      
     
