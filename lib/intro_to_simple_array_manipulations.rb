@@ -62,7 +62,8 @@ def using_insert(array, element)
    
    def using_delete(array, string)
      instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-    instructors.delete("Steven")
+    no_offense_steven = array.delete("Steven")
+    p no_offense_steven
   end
   
      
