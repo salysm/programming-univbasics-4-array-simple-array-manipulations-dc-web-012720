@@ -56,7 +56,7 @@ def using_insert(array, element)
   
   def using_flatten(array)
     instruments = ["Saxophone", ["Piano", "Trumpet"], "Violin", "Drums", "Flute"]
-     flat_array = instruments.using_flatten
+     flat_array = instruments.flatten 
      p flat_array
    end
     
