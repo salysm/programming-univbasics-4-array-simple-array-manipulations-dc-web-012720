@@ -26,8 +26,10 @@ end
 
 def using_pop(array) 
   continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
-  deleted_string = continents.pop 
-  p continents.size
+  array.pop
+  deleted_string = array.pop
+  p deleted_string
+  p array
 end
 
 
