@@ -29,7 +29,6 @@ def using_pop(array)
   array.pop
   deleted_string = array.pop
   p deleted_string
-  p array
 end
 
 
