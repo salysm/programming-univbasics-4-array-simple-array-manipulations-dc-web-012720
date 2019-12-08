@@ -53,3 +53,6 @@ def using_insert(array, element)
     new_array = haircuts.uniq 
     p new_array
   end
+  
+  def using_flatten(array)
+    
