@@ -32,3 +32,5 @@ def shift_with_args(array)
   p brands_removed
 end
 
+def using_concat(array)
+  
