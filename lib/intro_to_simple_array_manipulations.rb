@@ -59,4 +59,7 @@ def using_insert(array, element)
      flat_array = instruments.flatten 
      p flat_array
    end
+   
+   def using_delete(array, string)
+     
     
