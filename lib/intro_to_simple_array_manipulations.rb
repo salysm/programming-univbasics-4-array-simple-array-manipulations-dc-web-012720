@@ -33,18 +33,9 @@ def shift_with_args(array)
 end
 
 
-
-
-arr1 = [1, 2, 3]
-arr2 = [4, 5, 6]
-arr3 = [7, 8, 9]
-arr4 = arr1 + arr2  # => [1, 2, 3, 4, 5, 6]
-arr4.concat(arr3)  # => [1, 2, 3, 4, 5, 6, 7, 8, 9]
-
-def using_concat(array1, array2)
+def using_concat(array)
   my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
     more_favs = ["sports cars", "flatiron school"]
-    all_my_favs.concat(my_favorite_things + more_favs) #=> 
-    
-    p all_my_favs
+    all_my_favs= array.concat(my_favorite_things + more_favs)
+     p all_my_favs
   end
