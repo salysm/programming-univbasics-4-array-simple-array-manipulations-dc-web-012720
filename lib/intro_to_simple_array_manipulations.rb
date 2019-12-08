@@ -47,3 +47,8 @@ def using_insert(array, element)
     list_of_programming_languages.insert(4,another_language)
     p list_of_programming_languages
   end
+  
+  def using_uniq(array)
+     it "takes in an argument of an array and uses the uniq method to remove any duplicate items" do
+    haircuts = ["Pixie", "Bob", "Mohawk", "Crew Cut", "Linka", "Wheeler", "Bob"]
+    new_array = using_uniq(haircuts)
